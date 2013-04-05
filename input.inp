@@ -1,0 +1,35 @@
+[ Geometry ]
+Lx    = 10
+Ly    = 1
+Lz    = 1
+ncx   = 256
+ncy   = 1
+ncz   = 1
+npart = 131072
+
+[ Time ]
+niter = 100
+dt    = 0.05
+
+[ Numerics ]
+accelerator  = 1
+interpolator = 1
+order        = 1
+
+[ Plasma properties ]
+udist = 1
+xdist = 1
+
+qom = -1.0
+u0  = 0.1
+v0  = 0.0
+w0  = 0.0
+ut  = 0.002
+vt  = 0.0
+wt  = 0.0
+wpi = 1.0
+
+[ Perturbations to the plasma ]
+ipert  = 0
+u_pert = 0.0
+x_pert = 0.0
